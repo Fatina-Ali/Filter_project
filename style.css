@@ -1,0 +1,33 @@
+.section {
+  background-color: rgb(221, 217, 217);
+  height: 300px;
+  position: relative;
+}
+.div_inSection {
+  position: absolute;
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 10px;
+  left: 550px;
+}
+.divButton_inSection {
+  position: absolute;
+  top: 140px;
+  left: 550px;
+  display: block;
+}
+.inputBox {
+  position: absolute;
+  top: 210px;
+  left: 530px;
+}
+.inputText {
+  width: 300px;
+}
+.containsPictures {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 100px;
+  width: 1250px;
+}
